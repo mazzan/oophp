@@ -1,0 +1,2 @@
+﻿Masan is a PHP-boilerplate/framework for small websites. Masan was built by 
+Mats Sandén (mazzan@masoft.se) as part of learning web programming. 
