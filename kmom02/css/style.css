@@ -1,0 +1,121 @@
+/**
+ * Main stylesheet
+ */
+@import url(links.css);
+
+
+/**
+ * General elements
+ */
+html, body {
+  color: #333;
+  Font-family: Calibri, Verdana, Ariel, sans-serif;
+}
+
+/**
+ * Typography
+ */
+h1 {
+  border-bottom: 1px solid #ccc;
+  text-transform: uppercase;
+}
+
+/**
+ * Layout of the main page elements 
+ */
+#wrapper {
+  margin: 0 auto;
+  width: 980px; 
+  padding: 10px;
+  
+}
+
+
+/**
+ * Layout for header
+ */
+#header {
+	width: 80%;
+  position: relative;
+  margin-bottom: 40px;
+  height: 80px;
+ 
+}
+
+.sitetitle {
+  position: absolute;
+  top: 6px;
+  left: 130px;
+  font-size: 48px;
+}
+
+.siteslogan {
+  position: absolute;
+  top: 65px;
+  left: 130px;
+  font-style: italic;
+  color: #666;
+}
+
+
+/**
+ * Layout for navigation bar / menu
+ */
+#navbar {
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+
+/**
+ * Layout for main
+ */
+#main {
+min-height: 30em;
+}
+
+.readable {
+width: 80%;
+padding-right: 1em;
+/* border-right: 1px solid #ccc;*/
+}
+
+
+/**
+ * Layout for footer
+*/
+#footer {
+
+  border-top: 1px solid #ccc;
+  color: #666;
+  clear: both;
+   
+}
+
+/**
+ * Byline
+ */
+.byline {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top: 1px dashed #ccc;
+  font-size: 14px;
+  color: #666;
+  font-style: italic;
+}
+
+
+/**
+ * Figure
+ */
+figure {
+
+}
+
+figcaption {
+
+}
+
+figure.right {
+  float: right;
+}
